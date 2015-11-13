@@ -35,6 +35,7 @@ module.exports = function(grunt) {
 			core: {
 				files: {
 					'css/reveal.css': 'css/reveal.scss',
+					'css/styles.css': 'css/styles.scss'
 				}
 			},
 			themes: {

@@ -1377,3 +1377,55 @@ html:-moz-full-screen-ancestor {
 }
 
 
+.reveal section img { 
+  background:none; border:none; box-shadow:none; 
+}
+
+.reveal section {
+  img.jira-img-sm  {
+			max-width: 100px;
+			background:none; border:none; box-shadow:none; 
+  } 
+}
+
+.reveal div.row-center {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+
+.reveal div.col-30 {
+	margin-left: 10px;
+	margin-right: 10px;
+	max-width: 50%;
+	float: left;
+}
+
+.reveal h1,h2,h3,h4 {
+	&.jira-slide {
+		text-align: left;
+	}
+}
+
+.reveal section p {
+	&.jira-slide{
+		text-align: left;
+		margin-left: 60px;
+		font-size: 60px;		
+	}
+}
+
+.reveal section ul {
+	&.jira-slide {
+		margin-left: 120px;
+		float: left;
+		font-size: 40px;	
+	}
+}
+
+.reveal section img{
+	&.jira-img-bg {
+		min-width: 80%;
+		border: 0;
+	}
+}
